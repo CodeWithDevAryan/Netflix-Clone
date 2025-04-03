@@ -1,0 +1,267 @@
+.SignInPage{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.SignInPage img{
+    filter: brightness(0.42);
+    transform: scale(1.05);
+    overflow-x: hidden;
+}
+
+.SignInPage-NavigationBar{
+    /* background-color: green; */
+    position: absolute;
+    top: 0;
+    width: 72vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    filter: brightness(2.5);
+    transform: scale(0.92);
+    overflow-x: hidden;
+}
+
+.SignInPage-Main-Box-Container{
+    /* background-color: green; */
+    width: 100vw;
+    height: 700px;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 80px;
+    margin-bottom: 200px;
+    overflow-x: hidden;
+    padding: 15px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox{
+    background-color: rgba(0, 0, 0, 0.693);
+    width: 470px;
+    border-radius: 7px;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-Inside{
+    /* background-color: red; */
+    margin: 55px;
+    height: auto;
+    margin-top: 40px;
+    overflow-x: hidden;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Txt{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    overflow-x: hidden;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Email{
+    display: flex;
+    /* background-color: blue; */
+    position: relative;
+    height: 40px;
+    margin-top: 15px;
+    /* justify-content: space-between; */
+}
+
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Email-div {
+    width: 339px;
+  }
+  
+  
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Email-div input {
+    width: 100%;
+    height: 40px;
+    padding-inline: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    border: 0.3px solid rgb(169, 169, 169);
+    background-color: none;
+    background: none;
+    transition: 0.3s;
+    padding-bottom: -4px;
+    padding-top: 14px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Email-div label {
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: 17px;
+    color: rgba(236, 236, 236, 0.889);
+    background: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease-in-out;
+    pointer-events: none;
+}
+
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Email-div input:focus+label,
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Email-div label.active {
+    top: 15px;
+    font-size: 12px;
+    left: 14px;
+    color: rgba(211, 211, 211, 0.682);
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Btn-Div {
+    /* background-color: red; */
+    /* position: absolute; */
+    margin-top: 35px;
+    width: 100%;
+    height: 40px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Btn {
+    width: 100%;
+    background-color: red;
+    border: none;
+    height: 100%;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-OR-Div{
+    /* background-color: green; */
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-OR {
+    /* background-color: red; */
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(236, 236, 236, 0.889);
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Code-Btn-Div{
+    /* background-color: red; */
+    /* position: absolute; */
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Code-Btn{
+    width: 100%;
+    background-color: rgba(73, 73, 73, 0.757);
+    border: none;
+    height: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-ForgotPassword{
+    /* background-color: red; */
+    text-align: center;
+    font-size: 0.93rem;
+    letter-spacing: -0.4px;
+    margin-top: 10px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-ForgotPassword a{
+    color: white;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-RememberMe-CheckBox{
+    /* background-color: red; */
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-RememberMe-Txt{
+    padding-inline: 10px;
+    font-size: 1.05rem;
+    font-weight: 570;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-RememberMe-CheckBox-span{
+    width: 20px;
+    height: 20px;
+    accent-color: white;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-NewToNetflix{
+    /* background-color: red; */
+    margin-top: 15px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-NewToNetflix-Txt{
+    font-weight: 500;
+    color: rgb(185, 185, 185);
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-NewToNetflix a{
+    font-weight: 600;
+    color: white;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-NewToNetflix a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Safety-warning{
+    /* background-color: red; */
+    font-size: 0.8rem;
+    margin-top: 20px;
+    color: rgb(124, 124, 124);
+    line-height: 18px;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Learn-More{
+    /* background-color: red; */
+    margin-top: 7px;
+    font-size: 0.8rem;
+}
+
+.SignInPage-Main-Box-Container-ContentBox-SignIn-Learn-More a{
+    color: rgb(0, 153, 255);
+    font-weight: 500;
+}
+
+.SignInPage-Footer{
+    background-color: rgb(23, 23, 23);
+    height: 320px;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding-top: 0px;
+    z-index: 5;
+}
+

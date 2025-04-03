@@ -1,0 +1,50 @@
+.Main-Navigation{
+    background-color: none;
+    width: 100vw;
+    min-height: 95px;
+    vertical-align: middle;
+    display: flex;
+}
+
+.Navigation-Bar{
+    background-color: none;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.Navigation-Bar-Logo img{
+    width: 9.25rem;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.Navigation-Bar-Tabs{
+    display: flex;
+    /* background-color: rgba(255, 255, 255, 0.034); */
+    height: 2.1rem;
+}
+
+.Navigation-Bar-SignIn-Btn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    width: 82px;
+    height: 100%;
+    margin-right: 7px;
+    border: none;
+    transition-duration: 250ms;
+}
+
+.Navigation-Bar-SignIn-Btn:hover{
+    background-color: grey;
+}
+
+
